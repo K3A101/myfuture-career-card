@@ -58,12 +58,19 @@ body {
         display: flex;
         flex-direction: row;
         gap: 1rem;
+        margin: 1rem 0;
 
-        p {
-            // word-break:break-all;
-            // word-wrap: break-word;
+        a:hover {
+          color: color(primary);
+          text-decoration: underline; 
         }
     }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
